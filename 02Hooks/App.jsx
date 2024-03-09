@@ -4,6 +4,8 @@ function App() {
     const [count,setcount]=useState(5);
     const handleAdd=()=>{
         setcount(count=>count+1)
+        setcount(count=>count+1)
+        setcount(count=>count+1)
     }
     const handleRemove=()=>{
         if(count>0){
