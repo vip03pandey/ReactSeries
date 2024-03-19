@@ -30,6 +30,7 @@ function App() {
   useEffect(() => {
     localStorage.setItem("todos", JSON.stringify(todos))
   }, [todos])
+  
 
   return (
     <Todoprovider value={{todos,addTodo,deleteTodo,updatedTodo,toggleComplete}}>

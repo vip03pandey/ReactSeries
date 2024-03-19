@@ -4,7 +4,7 @@ import { createContext,useContext } from "react";
     {
         id:1,
         todo:"Todo msg",
-        completes:false,
+        completed:false,
     }
   ],
   addTodo: (todo) => {},
